@@ -98,6 +98,7 @@ class WeatherSearchBody extends StatelessWidget {
             style: AppStyle.fontStyle.copyWith(
               fontSize: 16,
               fontWeight: FontWeight.w700,
+              color: Colors.white.withOpacity(0.7)
             ),
           ),
           const SizedBox(height: 16),

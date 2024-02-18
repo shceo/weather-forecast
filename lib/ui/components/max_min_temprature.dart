@@ -24,6 +24,7 @@ class MaxMinTemprature extends StatelessWidget {
           '${model.setMaxTemp()}°',
           style: AppStyle.fontStyle.copyWith(
             fontSize: 25,
+            color: Colors.white
           ),
         ),
         const SizedBox(width: 65),

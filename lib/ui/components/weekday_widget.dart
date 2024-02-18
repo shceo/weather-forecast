@@ -14,7 +14,7 @@ class WeekDayWidget extends StatelessWidget {
       height: 350,
       decoration: BoxDecoration(
         borderRadius: BorderRadius.circular(5),
-        color: AppColors.weekdayBgColor.withOpacity(0.3),
+        color: AppColors.weekdayBgColor.withOpacity(0.5),
       ),
       child: ListView.separated(
         physics: const NeverScrollableScrollPhysics(),

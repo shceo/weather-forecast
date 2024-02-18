@@ -30,7 +30,7 @@ class GridItems extends StatelessWidget {
               child: Card(
                 margin: const EdgeInsets.all(0),
                 elevation: 0,
-                color: AppColors.weekdayBgColor.withOpacity(0.3),
+                color: AppColors.weekdayBgColor.withOpacity(0.5),
                 child: Center(
                   child: ListTile(
                     leading: SvgPicture.asset(
